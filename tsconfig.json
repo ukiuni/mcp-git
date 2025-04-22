@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Update target
+    "module": "NodeNext", // Change module to support ES Modules
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "NodeNext" // Change moduleResolution
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
